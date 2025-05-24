@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!--versao do html-->
+<html lang="pt-br"> <!--Escolha da liingua-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="httsps://fonts.gstatic.com" crossorigin>
+    <link
+
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <title>Starbucks</title>
+
+</head> <!--fica as configuracoes -->
+
+<body>
+<div class="circulo"></div>
+
+ <img src="img/logo.png" alt="imagem-logo-satrbucks">
+</div>
+
+<div class="conteudo">
+
+<div class="caixa-texto">
+
+    <h1>It's not just Coffe It's <span> Starbucks</span></h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero pariatur dolore aperiam a dolores corporis placeat, autem commodi natus totam doloribus harum sapiente impedit repudian</p>
+    <button>DEIXE SEU LIKE!</button>
+
+</div>
+
+<div class="">
+    <img class="starbucks" src="img/img1.png">
+</div>
+
+<div class="menu">
+    <img onclick="TrocarCor('#017143')" src="img/thumb1.png" alt="imagem copinho-starbucks"> 
+    <img onclick="TrocarCor('#eb7495')" src="img/thumb2.png" alt="imagem copinho-starbucks">
+    <img onclick="TrocarCor('#d752b1')" src="img/thumb3.png" alt="imagem copinho-starbucks">
+</div>
+
+</body>
+
+<script src="scripts.js"> </script>
+
+</html>
